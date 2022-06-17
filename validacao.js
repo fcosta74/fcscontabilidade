@@ -24,3 +24,4 @@ var validForm = () => {
     alert("Todos os dados são válidos");
 
 }
+
