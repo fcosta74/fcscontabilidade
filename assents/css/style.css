@@ -1,16 +1,18 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
-  
+
 }
-body{
+
+body {
     background-image: url(../css/imagem/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-       
+
 }
-nav{    
-    overflow: hidden;
+
+nav {
+   
     position: fixed;
     width: 100%;
     max-width: 100%;
@@ -18,46 +20,52 @@ nav{
     margin-top: 0;
     color: whitesmoke;
 }
-nav .logo{
+
+nav .logo {
     float: left;
     display: block;
-    padding: 14px 16px;
+    padding: 16px;
     font-size: 2rem;
 }
-nav a{
+
+nav a {
     float: right;
     text-decoration: none;
     display: block;
     padding: 14px 16px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: black;
 }
-nav a:hover{
+
+nav a:hover {
     transition: 0.5s;
     color: rgba(255, 255, 255, 0.753);
-    
+
 }
 
-.banner{
+.banner {
     width: 100%;
     max-width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-image: url(..//css/imagem/imagem.jpg);
     background-size: cover;
-    background-repeat: no-repeat;  
-    
+    background-repeat: no-repeat;
+
 }
-h2{
+
+h2 {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px #333;
     font-size: 4rem;
- 
+
 }
-.container{
+
+.container {
     width: 100%;
     margin: 0px auto;
 }
+
 h3 {
     text-align: center;
     margin-top: 20px;
@@ -68,6 +76,7 @@ main section.servicos h3 {
     color: black;
     text-align: center;
 }
+
 main section.servicos .container {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -76,7 +85,7 @@ main section.servicos .container {
     padding: 0;
     float: right;
     display: grid;
-   
+
 }
 
 main section.servicos .container .imagem {
@@ -86,96 +95,110 @@ main section.servicos .container .imagem {
     transition: 1s;
     max-width: 100%;
     width: 100%;
-   
+
 }
+
 main section.servicos .container #imagem1 {
     background-image: url(../css/imagem/1.jpg);
 }
+
 main section.servicos .container #imagem2 {
     background-image: url(../css/imagem/2.jpg);
 }
+
 main section.servicos .container #imagem3 {
     background-image: url(../css/imagem/3.jpg);
 }
-section{
+
+section {
     width: 100%;
     float: left;
 
 }
-section.quem-somos{
+
+section.quem-somos {
     height: 170px;
     color: black;
     text-align: center;
     margin-top: 10px;
 }
+
 section.quem-somos h3 {
     text-align: center;
     margin-top: 10px;
     font-size: 30px;
 }
+
 section.quem-somos p {
     text-align: center;
     line-height: 1.5rem;
     margin-top: 15px;
 }
-form{
-	width: 400px;
+
+form {
+    width: 400px;
     margin: 0 auto;
     padding: 10px;
-    align-items: center;  
+    align-items: center;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-input{
+input {
     width: 100%;
     border-radius: 0.6rem;
     height: 2rem;
-    background: rgba(30,206,131,0.1);
+    background: rgba(30, 206, 131, 0.1);
     box-sizing: border-box;
     border: 2px solid black;
     cursor: pointer;
-    font-size: 20px;  
+    font-size: 20px;
 }
+
 label {
     text-align: center;
     height: 1.5rem;
-    font-size: 20px;    
+    font-size: 20px;
 }
 
-textarea{
+textarea {
     resize: none;
     width: 100%;
-    background: rgba(30,206,131,0.1);
+    background: rgba(30, 206, 131, 0.1);
     border-radius: 0.6rem;
     margin-bottom: 0.8rem;
     border: 2px solid black;
 }
+
 footer {
-	width: 100%;
-	text-align: center;
-    
+    width: 100%;
+    text-align: center;
+
+
 }
 
-  
-footer h5{
+
+footer h5 {
+    margin-top: 2rem;
     font-size: 20px;
-    
+
 }
-footer .social{
+
+footer .social {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-footer .social .h4{
+footer .social .h4 {
     display: flex;
-    align-items:center;
+    align-items: center;
     font-size: 5px;
 
 }
 
-footer .social .icon{
+footer .social .icon {
     color: green;
     font: var(--font-p);
     font-size: 15px;
@@ -184,35 +207,70 @@ footer .social .icon{
     margin-left: 1rem;
 }
 
-footer p{
+footer p {
     padding: 1rem;
     padding-bottom: 1rem;
-    text-align:center;
-    color: black; 
+    text-align: center;
+    color: black;
     margin-left: 0.5rem;
 }
-footer .container{
-    display: flex;
+
+footer .container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: aquamarine;
-    border-radius:1rem;
+    border-radius: 1rem;
     width: 50rem;
-    margin-left: 40rem;
-    
-    
+
+
+
 }
 
-footer .maps{
-    overflow: hidden ;
+footer .maps {
+    overflow: hidden;
     padding-bottom: 40%;
     border-radius: 1rem;
     height: 0;
     margin: 10px 10px 10px;
- 
-       
+
+
 }
-@media (max-width:768px){
-    
+
+@media (max-width:768px) {
+
+    .banner {
+        width: 100%;
+    }
+
+    main section.servicos .container {
+        grid-template-columns: 1fr;
+    }
+
+    main .contato {
+        margin-top: 4rem;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+
     }
 
 
+    nav .menu {
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
 
+    nav:hover .menu {
+        display: flex;
+    }
+
+
+    footer .container {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
