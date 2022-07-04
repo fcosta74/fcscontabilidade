@@ -12,7 +12,6 @@ body {
 }
 
 nav {
-   
     position: fixed;
     width: 100%;
     max-width: 100%;
@@ -40,9 +39,7 @@ nav a {
 nav a:hover {
     transition: 0.5s;
     color: rgba(255, 255, 255, 0.753);
-
 }
-
 .banner {
     width: 100%;
     max-width: 100%;
@@ -50,17 +47,13 @@ nav a:hover {
     background-image: url(..//css/imagem/imagem.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
-
 h2 {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px #333;
     font-size: 4rem;
-
 }
-
 .container {
     width: 100%;
     margin: 0px auto;
@@ -173,8 +166,6 @@ textarea {
 footer {
     width: 100%;
     text-align: center;
-
-
 }
 
 
@@ -237,12 +228,14 @@ footer .maps {
 
 }
 
-@media (max-width:768px) {
+@media (max-width:800px) {
 
     .banner {
         width: 100%;
     }
-
+    h2{
+        font-size: 2rem;
+    }
     main section.servicos .container {
         grid-template-columns: 1fr;
     }
