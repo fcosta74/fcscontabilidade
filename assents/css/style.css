@@ -13,7 +13,8 @@ nav{
     overflow: hidden;
     position: fixed;
     width: 100%;
-    background-color: rgba(127, 208, 255, 0.116);
+    max-width: 100%;
+    background-color: rgba(128, 128, 128, 0.822);
     margin-top: 0;
     color: whitesmoke;
 }
@@ -21,7 +22,7 @@ nav .logo{
     float: left;
     display: block;
     padding: 14px 16px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 nav a{
     float: right;
@@ -33,7 +34,7 @@ nav a{
 }
 nav a:hover{
     transition: 0.5s;
-    background-color: cyan;
+    color: rgba(255, 255, 255, 0.753);
     
 }
 
@@ -44,17 +45,14 @@ nav a:hover{
     background-image: url(..//css/imagem/imagem.jpg);
     background-size: cover;
     background-repeat: no-repeat;  
-     
+    
 }
-
-
 h2{
     text-align: center;
     color: white;
     text-shadow: 2px 2px 5px #333;
     font-size: 4rem;
-    
-    
+ 
 }
 .container{
     width: 100%;
@@ -69,8 +67,6 @@ h3 {
 main section.servicos h3 {
     color: black;
     text-align: center;
-  
-
 }
 main section.servicos .container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -211,8 +207,12 @@ footer .maps{
     border-radius: 1rem;
     height: 0;
     margin: 10px 10px 10px;
-    position: relative;
+ 
        
 }
+@media (max-width:768px){
+    
+    }
+
 
 
